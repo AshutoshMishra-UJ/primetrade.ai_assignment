@@ -1,0 +1,3 @@
+dataset,rows,columns,missing_values,duplicate_rows
+fear_greed,2644,4,0,0
+trader_data,146316,16,13,0
