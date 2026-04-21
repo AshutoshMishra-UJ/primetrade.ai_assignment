@@ -60,7 +60,7 @@ This produces:
 ## Run Dashboard
 
 ```bash
-python -m streamlit run src/bonus/dashboard.py
+python -m streamlit run streamlit_app.py
 ```
 
 Dashboard sections:
@@ -115,4 +115,19 @@ git commit -m "Restructure project and finalize deliverables"
 git branch -M main
 git remote add origin https://github.com/AshutoshMishra-UJ/primetrade.ai_assignment.git
 git push -u origin main
+```
+
+## Deploy On Streamlit Community Cloud
+
+1. Go to https://share.streamlit.io and sign in with GitHub.
+2. Click New app.
+3. Select repository: AshutoshMishra-UJ/primetrade.ai_assignment.
+4. Branch: main.
+5. Main file path: streamlit_app.py.
+6. Click Deploy.
+
+If the app starts before tables exist, run pipeline once in app terminal or locally and push outputs:
+
+```bash
+python run_all.py
 ```
